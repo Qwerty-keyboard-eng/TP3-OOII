@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e22cc2ba-3d0a-4c66-8ee8-7c1f5f402f65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroInfantil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroNuevo_Lanzamiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibroRegular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Alquiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Alquiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/CopiaLibro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/CopiaLibro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio1/CalculoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio1/CalculoTest.java" afterDir="false" />
+    <list default="true" id="e22cc2ba-3d0a-4c66-8ee8-7c1f5f402f65" name="Changes" comment="Punto 1 completo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio2/Recaudacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio2/Recaudacion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +54,7 @@
     "Application.Main.executor": "Run",
     "JUnit.CalculoTest.executor": "Coverage",
     "JUnit.CalculoTest.test01.executor": "Coverage",
+    "JUnit.RecaudacionTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "code.cleanup.on.save": "true",
@@ -70,7 +64,7 @@
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CalculoTest.test01">
+  <component name="RunManager" selected="JUnit.RecaudacionTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.Main" />
       <module name="oop2-refactoring" />
@@ -115,8 +109,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecaudacionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio2" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio2.RecaudacionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RecaudacionTest" />
         <item itemvalue="JUnit.CalculoTest.test01" />
         <item itemvalue="JUnit.CalculoTest" />
         <item itemvalue="Application.Main" />
@@ -132,10 +142,31 @@
       <option name="presentableId" value="Default" />
       <updated>1746878519171</updated>
     </task>
+    <task id="LOCAL-00001" summary="Punto 1 completo">
+      <option name="closed" value="true" />
+      <created>1746884834633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746884834633</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Punto 1 completo">
+      <option name="closed" value="true" />
+      <created>1746884858046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746884858046</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Punto 1 completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Punto 1 completo" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/oop2_refactoring$CalculoTest_test01.ic" NAME="CalculoTest.test01 Coverage Results" MODIFIED="1746884013111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/oop2_refactoring$CalculoTest_test01.ic" NAME="CalculoTest.test01 Coverage Results" MODIFIED="1746884743611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/oop2_refactoring$CalculoTest.ic" NAME="CalculoTest Coverage Results" MODIFIED="1746880402057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
