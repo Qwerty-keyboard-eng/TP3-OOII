@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e22cc2ba-3d0a-4c66-8ee8-7c1f5f402f65" name="Changes" comment="Punto 1 y 2 completos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/GastoAlquilerAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/GastoCena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/GastoDesayuno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/Gastos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/IGasto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/TipoDeGasto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio3/ReporteGastosTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/EjemploDeUsoDelReporte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/ReporteDeGastos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/ReporteDeGastos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem.log" beforeDir="false" afterPath="$PROJECT_DIR$/mem.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mem.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem.script" beforeDir="false" afterPath="$PROJECT_DIR$/mem.script" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/PersonaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/PersonaRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
     "JUnit.CalculoTest.executor": "Coverage",
     "JUnit.CalculoTest.test01.executor": "Coverage",
     "JUnit.RecaudacionTest.executor": "Coverage",
-    "JUnit.ReporteGastosTest.executor": "Run",
+    "JUnit.ReporteGastosTest.executor": "Coverage",
     "JUnit.ReporteGastosTest.imprimir_alquilerAuto.executor": "Run",
     "JUnit.ReporteGastosTest.imprimir_gastosConExcesoComida.executor": "Run",
     "JUnit.ReporteGastosTest.imprimir_gastosVariosSinExceso.executor": "Debug",
@@ -83,7 +79,7 @@
       <recent name="oop2.tp3.ejercicio3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReporteGastosTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="EjemploDeUsoDelReporte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.EjemploDeUsoDelReporte" />
       <module name="oop2-refactoring" />
@@ -97,17 +93,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecaudacionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio4.Main" />
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio2.*" />
+          <option name="PATTERN" value="oop2.tp3.ejercicio4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio2" />
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio2.RecaudacionTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ReporteGastosTest" />
         <item itemvalue="JUnit.ReporteGastosTest.imprimir_alquilerAuto" />
         <item itemvalue="JUnit.ReporteGastosTest.imprimir_gastosConExcesoComida" />
         <item itemvalue="Application.EjemploDeUsoDelReporte" />
-        <item itemvalue="JUnit.RecaudacionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746886542640</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Punto 1 y 2 completos">
+      <option name="closed" value="true" />
+      <created>1746890413119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746890413119</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,7 +222,7 @@
     <SUITE FILE_PATH="coverage/oop2_refactoring$RecaudacionTest.ic" NAME="RecaudacionTest Coverage Results" MODIFIED="1746886517716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio2.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/oop2_refactoring$ReporteGastosTest.ic" NAME="ReporteGastosTest Coverage Results" MODIFIED="1746887723057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/oop2_refactoring$ReporteGastosTest.ic" NAME="ReporteGastosTest Coverage Results" MODIFIED="1746890583090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio3.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/oop2_refactoring$ReporteGastosTest_imprimir_gastosConExcesoComida.ic" NAME="ReporteGastosTest.imprimir_gastosConExcesoComida Coverage Results" MODIFIED="1746887349687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
